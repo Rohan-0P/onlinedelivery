@@ -1,0 +1,167 @@
+
+.order-page-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  .page-title {
+    font-size: 1.8em;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .orders-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .order-card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .order-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1em;
+  }
+  
+  .order-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .order-info {
+    flex: 1;
+  }
+  
+  .delivery-status {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .delivery-date {
+    color: #999;
+  }
+  
+  .order-rating {
+    display: flex;
+    align-items: center;
+  }
+  
+  .order-image {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .order-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .no-orders {
+    text-align: center;
+    color: #999;
+  }
+  .order-image img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover; /* Ensure the image fits within the circle */
+  }
+  .order-page-container {
+    padding: 20px;
+  }
+  
+  .page-title {
+    font-size: 24px;
+    margin-bottom: 200px;
+  }
+  
+  .orders-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .order-card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .order-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .order-info {
+    flex-grow: 1;
+  }
+  
+  .order-image img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .order-page-container {
+      padding: 10px;
+    }
+  
+    .order-card {
+      padding: 10px;
+    }
+  
+    .page-title {
+      font-size: 1.5em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .order-page-container {
+      padding: 5px;
+    }
+  
+    .order-card {
+      padding: 8px;
+    }
+  
+    .page-title {
+      font-size: 1.2em;
+    }
+  
+    .order-body {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .order-image {
+      margin-top: 10px;
+    }
+  }
+
+  

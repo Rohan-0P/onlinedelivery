@@ -1,0 +1,16 @@
+/* src/components/CartIcon.css */
+.cart-icon {
+    position: fixed; /* Make sure it's always visible */
+    top: 80px;
+    right: 280px;
+    cursor: pointer;
+    font-size: 24px;
+    
+    border-radius: 50%;
+    padding: 10px;
+  }
+  
+  .cart-icon span {
+    margin-left: -70px;
+  }
+  
